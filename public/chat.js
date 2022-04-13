@@ -1,4 +1,4 @@
-let socket = io.connect('http://localhost:5000/');
+let socket = io.connect('https://video-chat-devhood.vercel.app/');
 let divVideoChatLobby = document.getElementById('video-chat-lobby');
 let divVideoChat = document.getElementById('video-chat-room');
 let joinButton = document.getElementById('join');
